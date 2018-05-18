@@ -35,7 +35,7 @@ import (
 	"sync"
 
 	"github.com/globalsign/mgo/bson"
-	"github.com/globalsign/mgo/internal/scram"
+	"github.com/zeppelin-no/mgo/internal/scram"
 )
 
 type authCmd struct {
