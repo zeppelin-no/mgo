@@ -14,6 +14,7 @@ Detailed documentation of the API is available at
 A [sub-package](https://godoc.org/github.com/globalsign/mgo/bson) that implements the [BSON](http://bsonspec.org) specification is also included, and may be used independently of the driver.
 
 ## Changes
+* Added soft delete feature
 * Fixes attempting to authenticate before every query ([details](https://github.com/go-mgo/mgo/issues/254))
 * Removes bulk update / delete batch size limitations ([details](https://github.com/go-mgo/mgo/issues/288))
 * Adds native support for `time.Duration` marshalling ([details](https://github.com/go-mgo/mgo/pull/373))
